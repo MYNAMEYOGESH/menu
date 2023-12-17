@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Logo Hear</a>
+
+                <button onclick="handler(event)">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            <ul class="menu">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT</a>
+                </li>
+                <li><a href="#" >CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Welcom to menu </h1>
+    </div>
+
+    <div class="container1">
+        <div class="contnet">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis neque ab iusto tempore dolorem necessitatibus officia libero reprehenderit! Totam nihil, accusamus aperiam est quis inventore ea maxime soluta debitis perferendis.
+           </p>
+        </div>
+        <div class="image">
+            <img src="https://picsum.photos/id/123/1200/800" alt="">
+        </div>
+    </div>
+
+    <script>
+        let menu = document.querySelector(".menu");
+            function handler(event) {
+                menu.classList.toggle('active');
+            }
+    </script>
+</body>
+</html>
